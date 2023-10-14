@@ -1,0 +1,1 @@
+import{D as a,E as r,G as s}from"./index-35928c40.js";const o=a("Detail",{state:()=>({hospitalInfo:{},DeparmentArr:[]}),actions:{async getHospital(e){let t=await r(e);t.code===200&&(this.hospitalInfo=t.data)},async getDeparment(e){let t=await s(e);t.code===200&&(this.DeparmentArr=t.data)}},getters:{}});export{o as u};
